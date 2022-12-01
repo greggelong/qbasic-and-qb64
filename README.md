@@ -8,7 +8,7 @@ This is a simple graphic visualization of modular multiplication using polar to 
 
 I must convert the angle in the for loop to radians and plot with an offset for x and y to center it
 
-```qbasic
+```basic
 
 For angle = 0 To 360 Step 2
     ' converting angle to radians
