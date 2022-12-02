@@ -2,7 +2,7 @@
 a place to hold some code while playing with qbasic and qb64
 
 
-## polargraph 
+## polarGraph and polarGraphHigh
 
 This is a simple graphic visualization of modular multiplication using polar to cartesian coordinates
 
