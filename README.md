@@ -19,16 +19,15 @@ For angle = 0 To 360 Step 2
     x1 = radius * Cos(ar * 2)
     y1 = radius * Sin(ar * 2)
 
-
-
-
     Line (x + xoff, y + yoff)-(x1 + xoff, y1 + yoff), 13
     PSet (x + xoff, y + yoff), 6
-
-
-
-
 
 Next angle
 
 '''
+
+I have made a high res version on a 600,600 screen
+
+it will cycle through the multipliers from 2 to 35 when you press a button
+
+I have incluced the .exe as well
