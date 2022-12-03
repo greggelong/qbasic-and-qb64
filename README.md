@@ -31,3 +31,28 @@ I have made a high res version on a 600,600 screen
 it will cycle through the multipliers from 2 to 35 when you press a button
 
 I have incluced the .exe as well
+
+
+## note on assigning floats to ints
+
+```basic
+Dim x As Integer
+Dim y As Integer
+
+
+Cls
+'' when random number is put into an integer it is rounded up
+'' you can avoid this by making the number a int first. that just floors it
+'' y = int(rnd *9)+1
+
+For x = 1 To 80
+    Randomize Timer
+    y = (Rnd * 9) + 1
+
+    Print y; ","; Int(Rnd * 9) + 1; " \ ";
+
+Next x
+
+
+
+```
